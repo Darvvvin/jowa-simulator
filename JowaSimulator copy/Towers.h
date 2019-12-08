@@ -22,6 +22,7 @@ private:
     int hp;
     sf::Texture tTower;
     sf::Sprite sTower;
+    sf::RectangleShape shape;
     sf::CircleShape cRange;
     sf::Vector2i tPosition;
     

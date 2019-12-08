@@ -28,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1624F208239C056000F4D05A /* Chicks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chicks.h; sourceTree = "<group>"; };
+		1624F209239C07CB00F4D05A /* ChicksProjectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicksProjectile.h; sourceTree = "<group>"; };
+		1624F20A239C0BB700F4D05A /* ChicksRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicksRange.h; sourceTree = "<group>"; };
+		1624F20B239C250200F4D05A /* Waves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waves.h; sourceTree = "<group>"; };
+		163E1BAA239CD16C00183D5B /* Jowa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jowa.h; sourceTree = "<group>"; };
 		16467B162376BE9400D97ED0 /* JowaSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JowaSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
 		16467B192376BE9400D97ED0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		16467B212376BEEB00D97ED0 /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "../SFML/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
@@ -45,9 +50,15 @@
 		1682EA422376C2A800E2A1C9 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "SFML/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
 		1682EA432376C2A800E2A1C9 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "SFML/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
 		1682EA442376C2A800E2A1C9 /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "SFML/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		169D9C412396460700043B85 /* Placed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Placed.h; sourceTree = "<group>"; };
+		169D9C422396463900043B85 /* Projectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
 		16C244432385309700186050 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		16DE2F7123817E7A00596425 /* Towers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Towers.h; sourceTree = "<group>"; };
-		16E38E63237BF99900566C7A /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
+		16E1084C239A6B740078C88D /* Uniqlo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Uniqlo.h; sourceTree = "<group>"; };
+		16E1084D239A6BB90078C88D /* Range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		16E1084E239A6EC80078C88D /* Available.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Available.h; sourceTree = "<group>"; };
+		16E1084F239A6F600078C88D /* Floors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floors.h; sourceTree = "<group>"; };
+		16E10850239A6F910078C88D /* Restricted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Restricted.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +99,19 @@
 			children = (
 				16467B192376BE9400D97ED0 /* main.cpp */,
 				16C244432385309700186050 /* Enemy.h */,
+				163E1BAA239CD16C00183D5B /* Jowa.h */,
+				1624F20B239C250200F4D05A /* Waves.h */,
+				16E1084C239A6B740078C88D /* Uniqlo.h */,
+				1624F208239C056000F4D05A /* Chicks.h */,
+				1624F209239C07CB00F4D05A /* ChicksProjectile.h */,
+				1624F20A239C0BB700F4D05A /* ChicksRange.h */,
+				169D9C422396463900043B85 /* Projectile.h */,
+				16E1084D239A6BB90078C88D /* Range.h */,
+				169D9C412396460700043B85 /* Placed.h */,
+				16E1084E239A6EC80078C88D /* Available.h */,
+				16E10850239A6F910078C88D /* Restricted.h */,
+				16E1084F239A6F600078C88D /* Floors.h */,
 				16DE2F7123817E7A00596425 /* Towers.h */,
-				16E38E63237BF99900566C7A /* world.h */,
 			);
 			path = JowaSimulator;
 			sourceTree = "<group>";
